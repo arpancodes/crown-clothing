@@ -3,14 +3,13 @@ import { Route } from 'react-router-dom'
 
 import './App.css'
 import HomePage from './pages/homepage/homepage.component'
-
-const hats = () => <div>HATS</div>
+import ShopPage from './pages/shop/shop.component'
 
 function App() {
 	return (
 		<div>
 			<Route exact path='/' component={HomePage} />
-			<Route exact path='/shop/hats' component={hats} />
+			<Route exact path='/shop' component={ShopPage} />
 		</div>
 	)
 }
