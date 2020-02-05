@@ -12,7 +12,6 @@ import CheckoutItem from '../../components/checkout-item/checkout-item.component
 import StripeCheckoutButton from '../../components/stripe-button/stripe-button.component';
 
 const CheckoutPage = ({ cartItems, total }) => {
-	console.log(cartItems, total);
 	return (
 		<div className='checkout-page'>
 			<div className='checkout-header'>
